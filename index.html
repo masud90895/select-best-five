@@ -21,10 +21,10 @@
             <p>Let's be clear, though, about those words "right now." This list takes into account the players' current form with their club and country. If a player is not playing well right now—of if he's not playing at all—he doesn't make the list.</p>
         </div>
     </header>
-    <main>
-       <section  class=" grid grid-cols-12 gap-5 mx-10">
+    <main class="">
+       <section  class=" grid grid-cols-12 gap-5 mx-10 ">
          <!-- card section start  -->
-         <div class="grid grid-cols-3 mt-10 col-span-8 gap-3">
+         <div class="grid grid-cols-3 mt-10 col-span-8 gap-3 mb-20">
             <!-- card 1 -->
             <div class="card card-compact w-full bg-base-100 shadow-xl">
                 <figure>
@@ -107,16 +107,16 @@
                 </div>
             <!-- table section start  -->
 
-        <section class="col-span-4"> 
+        <section class="col-span-4 mb-20"> 
             
-        <div class="overflow-x-auto col-span-4 mt-10">
+        <div class="overflow-x-auto col-span-4 mt-10 ">
             <table class="table w-full">
               <!-- head -->
               <thead>
                 <tr>
                   <th></th>
                   <th></th>
-                  <th class="text-2xl">Selected - V</th>
+                  <th class="text-2xl">Selected - <span>0</span></th>
                 </tr>
               </thead>
               <tbody>
@@ -156,11 +156,11 @@
 
           <!-- buget section start  -->
 
-          <div class="bg-black text-white rounded-md mt-12">
-            <div class="text-center">
-                <h1 class="text-2xl font-bold font-mono pt-6 text-center">Budget</h1>
-                <div class="mt-4">
-                  <p class="inline text-xl font-semibold">Per Player :</p>
+          <div class="bg-black text-white rounded-md mt-12 mb-12">
+            <div class="text-center ">
+                <h1 class="text-3xl font-bold font-mono pt-6 text-center">Budget</h1>
+                <div class="mt-4 flex justify-evenly">
+                  <p class="inline text-xl font-semibold ">Per Player :</p>
                 <input class="inline rounded-md px-5 py-1 text-black" type="text" name="" id="" placeholder="Player buget">
                 </div>
                 <button class="text-xl py-1 rounded-md hover:bg-sky-700 bg-sky-500 w-1/2  text-center mt-4">Calculate</button>
@@ -168,9 +168,17 @@
                 <div>
                   <h1 class="mt-4 text-2xl font-bold">Player Expenses :  $<span>00</span></h1>                 
                 </div>
-                <div class="mt-4">
+                <div class="mt-4 flex justify-evenly">
                   <p class="inline text-xl font-semibold">Manager :</p>
                 <input class="inline rounded-md px-5 py-1 text-black" type="text" name="" id="" placeholder="manager amount">
+                </div>
+                <div class="mt-4 flex justify-evenly">
+                  <p class="inline text-xl font-semibold">Coach :</p>
+                <input class="inline rounded-md px-5 py-1 text-black" type="text" name="" id="" placeholder="Coach amount">
+                </div>
+                <button class="text-xl py-1 rounded-md hover:bg-sky-700 bg-sky-500 w-1/2  text-center mt-4">Calculate Total</button>
+                <div class="">
+                  <h1 class="mt-4 text-2xl font-bold ">Total :  $<span class="text-orange-600">00</span></h1>                 
                 </div>
             </div>
           </div>
