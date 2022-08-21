@@ -1,12 +1,4 @@
 
-// let selectorBtn = document.getElementsByClassName('selector');
-// for(selector of selectorBtn){
-//     selector.addEventListener('click', function(event){
-//         let select = event.target.parentNode.parentNode.childNodes[1].innerText;
-//         console.log(select);
-//     })
-// }
-
 let count = 0;
 let selectorBtn = document.getElementsByClassName('selector');
 for(selector of selectorBtn){
@@ -24,7 +16,7 @@ for(selector of selectorBtn){
          let selectedPlayer = document.getElementById('selected-total');
          let totalSelectedPlayer = parseFloat(selectedPlayer.innerText);
          selectedPlayer.innerText = count;
-         
+        
 
         const mainContainer = document.getElementById("content-container");
         
