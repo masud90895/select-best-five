@@ -116,7 +116,7 @@
                 <tr>
                   <th></th>
                   <th></th>
-                  <th>Name</th>
+                  <th class="text-2xl">Selected - V</th>
                 </tr>
               </thead>
               <tbody>
@@ -157,11 +157,21 @@
           <!-- buget section start  -->
 
           <div class="bg-black text-white rounded-md mt-12">
-            <div>
-                <h1 class="text-2xl font-bold font-mono mt-10">Budget</h1>
-                <p class="inline ">Per Player :</p>
-                <input class="inline rounded-md px-5 py-1 " type="number" name="" id="">
-                <button class=" bg-sky-500 w-9/12  mx-auto flex ">Calculate</button>
+            <div class="text-center">
+                <h1 class="text-2xl font-bold font-mono pt-6 text-center">Budget</h1>
+                <div class="mt-4">
+                  <p class="inline text-xl font-semibold">Per Player :</p>
+                <input class="inline rounded-md px-5 py-1 text-black" type="text" name="" id="" placeholder="Player buget">
+                </div>
+                <button class="text-xl py-1 rounded-md hover:bg-sky-700 bg-sky-500 w-1/2  text-center mt-4">Calculate</button>
+
+                <div>
+                  <h1 class="mt-4 text-2xl font-bold">Player Expenses :  $<span>00</span></h1>                 
+                </div>
+                <div class="mt-4">
+                  <p class="inline text-xl font-semibold">Manager :</p>
+                <input class="inline rounded-md px-5 py-1 text-black" type="text" name="" id="" placeholder="manager amount">
+                </div>
             </div>
           </div>
         </section>
